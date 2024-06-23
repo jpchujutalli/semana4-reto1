@@ -41,12 +41,14 @@ h2 {
 
 .espacio-parrafo {
 	display: flex;
+	align-items: center;
 }
 
 .precio-actual {
 	color: hsl(158, 36%, 37%);
 	font-family: 'Fraunces', serif;
 	margin-left: 25px;
+	font-size: 30px;
 }
 
 .precio-antiguo {
@@ -64,4 +66,5 @@ button {
 	padding: 14px 124px;
 	color: #fff;
 	font-weight: bold;
+	border: none;
 }
